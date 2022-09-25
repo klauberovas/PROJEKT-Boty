@@ -24,13 +24,17 @@ body {
 body{
     background-color: #f5f5f5;
     padding-top: 100px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
 }
+
 .kontejner{
     display: flex;
     width: 670px;
-    height: 400px;
+    height: 440px;
     margin: auto;
-    border-radius: 50%;
+    border-radius: 20px; 
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .polovina{
@@ -41,29 +45,106 @@ body{
     background-image: linear-gradient(to bottom, #06d7c1,#50cc49);
     flex-basis: 335px;
     flex-shrink: 0;
+    position: relative;
+    border-radius: 15px 0 0 15px;
 }
 
 .prava{
     flex-basis: 335px;
     flex-shrink: 0;
     background-color: white;
-}
-
-.velikosti{
-    display: flex;
-}
-
-.velikosti li{
-    flex-grow: 2;
-    flex-basis: 80%;
-}
-
-a{
-    text-decoration: none;
+    border-radius: 0 15px 15px 0;
 }
 
 .bota{
     position: absolute;
-    top: 210px;
-    left: 0px;
+    top: 140px;
+    right: 0px;
 }
+
+.cena,
+.zaruka,
+.horni{
+    color: white;
+    margin: 30px 0;
+}
+
+.horni{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cena{
+    position: absolute;
+    bottom: 16px;
+    left: 195px;
+    font-size:28px ;
+    font-weight: 500;
+}
+
+.zaruka{
+    position: absolute;
+    bottom: 0;
+    left: 158px;
+    font-size: 12px;
+}
+
+h1{
+    font-family:'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform:uppercase ;
+    margin: 0;
+}
+
+.damska{
+    color: rgb(137, 136, 136);
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.odstavec{
+    border-bottom: 2px solid #06d7c1;
+    padding: 30px 0;
+    margin: 0 0 30px 0;
+}
+
+h2{
+    margin-bottom: 0;
+}
+
+.velikosti{
+    display: flex;
+    list-style-type: none;
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+
+.velikosti li{
+    display: flex ;
+    align-items: center;
+    flex-basis: 0;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 0;  
+}
+
+.kolecko{
+    color: #f15f42;
+    border: 2px solid #f15f42;
+    border-radius: 50%;
+    height: 34px; 
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color:#f15f42;
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+
+
