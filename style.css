@@ -111,6 +111,9 @@ h1{
 
 h2{
     margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .velikosti{
@@ -121,12 +124,10 @@ h2{
 }
 
 .velikosti li{
-    display: flex ;
+    display: flex;
     align-items: center;
-    flex-basis: 0;
     justify-content: center;
     flex-grow: 1;
-    margin: 0;  
 }
 
 .kolecko{
