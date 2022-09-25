@@ -28,6 +28,7 @@ body{
     font-size: 14px;
 }
 
+/*--- KONTEJNER --- */
 .kontejner{
     display: flex;
     width: 670px;
@@ -42,7 +43,7 @@ body{
 }
 
 .leva{
-    background-image: linear-gradient(to bottom, #06d7c1,#50cc49);
+    background-image: linear-gradient(#06d7c1,#50cc49);
     flex-basis: 335px;
     flex-shrink: 0;
     position: relative;
@@ -55,6 +56,9 @@ body{
     background-color: white;
     border-radius: 0 15px 15px 0;
 }
+
+
+/*--- LEVÁ ČÁST --- */
 
 .bota{
     position: absolute;
@@ -89,6 +93,10 @@ body{
     font-size: 12px;
 }
 
+
+
+/*--- PRAVÁ ČÁST---*/
+
 h1{
     font-family:'Rubik', sans-serif;
     font-weight: 500;
@@ -103,17 +111,16 @@ h1{
     margin-bottom: 0;
 }
 
-.odstavec{
-    border-bottom: 2px solid #06d7c1;
-    padding: 30px 0;
-    margin: 0 0 30px 0;
-}
-
 h2{
     margin-bottom: 0;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 500;
+}
+.odstavec{
+    border-bottom: 2px solid #06d7c1;
+    padding: 30px 0;
+    margin: 0 0 30px 0;
 }
 
 .velikosti{
@@ -135,9 +142,10 @@ h2{
     border: 2px solid #f15f42;
     border-radius: 50%;
     height: 34px; 
+    font-weight: bold;
 }
 
-a{
+.button {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
